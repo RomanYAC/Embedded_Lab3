@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\..\Libraries\CMSIS\Include -I ..\..\..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\..\..\Libraries\STM32F4x7_ETH_Driver\inc -I ..\..\..\..\Utilities\STM32_EVAL\Common -I ..\..\..\..\Utilities\STM32_EVAL\STM324x7I_EVAL -I ..\..\..\..\Utilities\Third_Party\lwip-1.4.1\src\include -I ..\..\..\..\Utilities\Third_Party\lwip-1.4.1\src\include\lwip -I ..\..\..\..\Utilities\Third_Party\lwip-1.4.1\src\include\netif -I ..\..\..\..\Utilities\Third_Party\lwip-1.4.1\src\include\ipv4 -I ..\..\..\..\Utilities\Third_Party\lwip-1.4.1\port\STM32F4x7 -I ..\..\..\..\Utilities\Third_Party\lwip-1.4.1\port\STM32F4x7\Standalone -I ..\..\..\..\Utilities\Third_Party\FatFs_vR0.09\inc
+-ID:\NULPPrograms\Keil\ARM\RV31\INC
+-ID:\NULPPrograms\Keil\ARM\CMSIS\Include
+-ID:\NULPPrograms\Keil\ARM\INC\ST\STM32F4xx
+-D__UVISION_VERSION="529" -DUSE_STDPERIPH_DRIVER -DSTM32F427X -DUSE_STM324x7I_EVAL
+-o .\stm324xg_eval\main.o --omf_browse .\stm324xg_eval\main.crf --depend .\stm324xg_eval\main.d "..\src\main.c"
