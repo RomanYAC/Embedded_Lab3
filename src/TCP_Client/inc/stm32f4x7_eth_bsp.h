@@ -50,7 +50,7 @@
 
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
-#define DP83848_PHY_ADDRESS       ((uint16_t) 0x01) /* Relative to STM324xG-EVAL Board */
+#define DP83848_PHY_ADDRESS       ((uint16_t) 0x00) /* Relative to STM324xG-EVAL Board */
 
 /* Specific defines for EXTI line, used to manage Ethernet link status */
 #define ETH_LINK_EXTI_LINE             EXTI_Line14
